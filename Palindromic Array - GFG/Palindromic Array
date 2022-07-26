@@ -1,0 +1,20 @@
+...// } Driver Code Ends
+/*Complete the function below*/
+class Solution {
+public:
+    int PalinArray(int a[], int n)
+    {
+        // code here
+        for(int i=0;i<n;i++){
+            string s=to_string(a[i]);
+            for(int j=0,z=s.size()-1;j<z;j++,z--){
+                if(s[j]!=s[z]){
+                    return 0;
+                }
+            }
+        }
+        //new
+        return 1;
+    }
+};
+...
