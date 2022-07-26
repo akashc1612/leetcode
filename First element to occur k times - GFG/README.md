@@ -1,40 +1,40 @@
 # First element to occur k times
- Easy
+## Easy
+<div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given an array of <strong>N</strong> integers.&nbsp;Find the first element that occurs atleast&nbsp;<strong>K</strong> number of times.</span><br>
+&nbsp;</p>
 
-Given an array of N integers. Find the first element that occurs atleast K number of times.
- 
+<p><span style="font-size:18px"><strong>Example 1:</strong></span></p>
 
-Example 1:
-
-Input :
+<pre><span style="font-size:18px"><strong>Input :</strong>
 N = 7, K = 2
 A[] = {1, 7, 4, 3, 4, 8, 7}
-Output :
+<strong>Output :</strong>
 4
-Explanation:
+<strong>Explanation:</strong>
 Both 7 and 4 occur 2 times. 
-But 4 is first that occurs 2 times.
+But 4 is first that occurs 2 times.</span></pre>
 
- 
+<p>&nbsp;</p>
 
-Your Task:  
-You don't need to read input or print anything. Your task is to complete the function firstElementKTime() which takes the array A[], its size N and an integer K as inputs and returns the required answer. If answer is not present in the array, return -1.
+<p><span style="font-size:18px"><strong>Your Task:&nbsp;&nbsp;</strong><br>
+You don't need to read input or print anything. Your task is to complete the function&nbsp;<strong>firstElementKTime()</strong>&nbsp;which takes the array <strong>A[]</strong>, its size <strong>N </strong>and an integer <strong>K </strong>as inputs and <strong>returns</strong> the required answer. If answer is not present in the array, return <strong>-1</strong>.</span></p>
 
- 
+<p>&nbsp;</p>
 
-Expected Time Complexity: O(N)
-Expected Auxiliary Space: O(N)
+<p><span style="font-size:18px"><strong>Expected Time Complexity:</strong> O(N)<br>
+<strong>Expected Auxiliary Space:</strong> O(N)</span></p>
 
- 
+<p>&nbsp;</p>
 
-Constraints:
-1 <= N, K <= 105
-1<= A <= 106
+<p><span style="font-size:18px"><strong>Constraints:</strong><br>
+1 &lt;= N, K &lt;= 10<sup>5</sup><br>
+1&lt;= A &lt;= 10<sup>6</sup></span></p>
 
- 
+<p>&nbsp;</p>
 
- 
+<p>&nbsp;</p>
 
- 
+<p>&nbsp;</p>
 
- 
+<p>&nbsp;</p>
+</div>
